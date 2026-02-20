@@ -65,7 +65,7 @@ tokio-util = { version = "0.7.13" }
 
 [dev-dependencies]
 rand = "0.9.0"
-time = { version = "0.3.36", features = ["macros", "formatting", "parsing"] }
+time = { version = "0.3.45", features = ["macros", "formatting", "parsing"] }
 op-alloy-consensus = "0.17.2"
 alloy-eips = { version = "1.0.9", features = ["serde"] }
 alloy-consensus = { version = "1.0.9", features = ["serde"] }
@@ -74,7 +74,7 @@ testcontainers = { version = "0.23.3" }
 assert_cmd = "2.0.10"
 predicates = "3.1.2"
 tokio-util = { version = "0.7.13" }
-bytes = "1.2"
+bytes = "1.11"
 reth-rpc-layer = { git = "https://github.com/paradigmxyz/reth.git", tag = "v1.4.7" }
 ctor = "0.4.1"
 reqwest = "0.12.15"
